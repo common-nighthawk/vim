@@ -8,6 +8,7 @@ set nocompatible
 set noswapfile
 set pastetoggle=<F2>
 set relativenumber
+set wildmode=longest,list
 
 "" SPACING SETTINGS
 set autoindent
@@ -49,3 +50,4 @@ endif
 
 "" PLUG-IN INSTALLATIONS
 " cd ~/.vim/bundle && git clone git://github.com/kien/ctrlp.vim.git
+" cd ~/.vim/bundle && git clone git://github.com/tpope/vim-commentary.git
