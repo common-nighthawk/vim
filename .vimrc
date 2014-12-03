@@ -6,7 +6,7 @@ filetype plugin indent on
 "" SYSTEM SETTINGS
 set nocompatible
 set noswapfile
-set pastetoggle=<F2>
+set pastetoggle=`p
 set relativenumber
 set wildmode=longest,list
 
@@ -16,6 +16,8 @@ set shiftround
 set smarttab
 set shiftwidth=2
 set tabstop=2
+set softtabstop=2
+set expandtab
 
 "" UNDO SETTINGS
 set undofile
@@ -32,13 +34,16 @@ noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
-nnoremap ` :noh<return><esc>
+nnoremap `` :noh<return><esc>
 
 "" DISPLAY SETTINGS
 highlight default link EndOfLineSpace ErrorMsg
 match EndOfLineSpace / \+$/
 autocmd InsertEnter * hi link EndOfLineSpace Normal
 autocmd InsertLeave * hi link EndOfLineSpace ErrorMsg
+
+"" PLUGIN SETTINGS
+let g:ctrlp_working_path_mode = 0  " cntrp searches in the directory opened
 
 "" COLOR SCHEME
 if &t_Co >= 256 || has("gui_running")

@@ -1,11 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Users/Daniel/Documents/Dev Bootcamp/Phase 3/Week 1/dd_bday/app'
-let g:netrw_dirhist_2='/Users/Daniel/Documents/Dev Bootcamp/Phase 3/Week 1/dd_bday/app/views'
-let g:netrw_dirhist_3='/Users/Daniel/Documents/Dev Bootcamp/Phase 3/Week 1/dd_bday/app/views/home'
-let g:netrw_dirhist_4='/Users/Daniel/Documents/Dev Bootcamp/Phase 3/Week 1/dd_bday'
-let g:netrw_dirhist_5='/Users/Daniel/Documents/Dev Bootcamp/Phase 3/Week 1/dd_bday/app'
-let g:netrw_dirhist_6='/Users/Daniel/Documents/Dev Bootcamp/Phase 3/Week 1/dd_bday/app/controllers'
-let g:netrw_dirhist_7='/Users/Daniel/Documents/Dev Bootcamp/Phase 3/Week 1/dd_bday'
-let g:netrw_dirhist_8='/Users/Daniel/Documents/Dev Bootcamp/Phase 3/Week 1/dd_bday/app'
-let g:netrw_dirhist_9='/Users/Daniel/Documents/Dev Bootcamp/Phase 3/Week 1/dd_bday/app/controllers'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Users/Daniel/Documents/Dev Projects/Personal Projects/simple-todos'
